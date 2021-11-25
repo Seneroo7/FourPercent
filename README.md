@@ -1,2 +1,2 @@
 # FourtyPercent
-batter for bai.
+better for bai.
