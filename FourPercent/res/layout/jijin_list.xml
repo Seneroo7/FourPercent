@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/list_jijin"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="15dp" >
+    
+    <LinearLayout
+        android:id="@+id/fund_main"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        
+        <LinearLayout
+	        android:id="@+id/fund_nameandnum"
+	    	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:layout_weight="2">
+	        
+            <TextView
+		        android:id="@+id/aName"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="#000000"
+		        android:textSize="17sp" />
+		    
+		    <TextView
+		        android:id="@+id/aNum"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textColor="#A9A9A9"
+		        android:textSize="15sp" />
+    	</LinearLayout>
+    	
+        <LinearLayout
+	        android:id="@+id/fund_data"
+	    	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="3">
+        
+            <LinearLayout
+		        android:id="@+id/fund_gsjz"
+		    	android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_weight="1">
+	        
+	            <TextView
+			        android:id="@+id/agsz"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#000000"
+			        android:textSize="16sp" />
+			    
+			    <TextView
+			        android:id="@+id/agszzl"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#000000"
+			        android:textSize="15sp" />
+			    
+	    	</LinearLayout>
+	    	
+            <LinearLayout
+		        android:id="@+id/fund_jz"
+		    	android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_weight="1">
+	        
+	            <TextView
+			        android:id="@+id/adwjz"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#000000"
+			        android:textSize="16sp" />
+	            
+	    	</LinearLayout>
+    	</LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/last_buy_main"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2" >
+        
+        <LinearLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="1" >
+            
+	        <TextView
+		        android:id="@+id/lst_data"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="7dp"
+		        android:text="@string/fund_list_text1"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:id="@+id/lst_Num"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2dp"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2dp"
+		        android:text="元"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2dp"
+		        android:text="("
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+	    
+		    <TextView
+		        android:id="@+id/lst_jjjz"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="1dp"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+		    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="1dp"
+		        android:text=")"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+		    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2dp"
+		        android:text="="
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+		    
+		    <TextView
+		        android:id="@+id/lst_zzl"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="2dp"
+		        android:textColor="#808080"
+		        android:textSize="15sp" />
+		    
+		</LinearLayout>
+		<LinearLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+		    android:gravity="center"
+	        android:layout_weight="3" >
+		    
+		    <Button
+		        android:id="@+id/btn_Main_buy"
+		        android:layout_width="30dp"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+		        android:text="@string/fund_list_btn_buy"
+		        android:background="@android:color/transparent"
+		        android:layout_marginLeft="3dp"
+	            android:textColor="#4169E1"
+	            android:textSize="15sp"  />
+		    
+		    <Button
+		        android:id="@+id/btn_Main_del"
+		        android:layout_width="30dp"
+		        android:gravity="center"
+		        android:layout_height="wrap_content"
+		        android:text="@string/fund_list_btn_del"
+		        android:background="@android:color/transparent"
+		        android:layout_marginLeft="8dp"
+	            android:textColor="#d21b22"
+	            android:textSize="15sp"  />
+		    
+		</LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>

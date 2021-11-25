@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FourPercent</string>
+    <string name="main_Note">main_Note</string>
+    <string name="main_Settings">设置</string>
+    <string name="main_Main">已购基金</string>
+    <string name="Settings_Inv">跌幅比加仓</string>
+    <string name="Settings_Add">新建仓</string>
+    <string name="Settings_Inv2">%</string>
+    <string name="Settings_Pri2">元</string>
+    <string name="Inv_btn_qur">确认</string>
+    <string name="Inv_btn_cancel">取消</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="edit_note">可以记一点什么</string>
+	
+	<string name="Time_text">时间</string>
+    <string name="Used_text">投入</string>
+    <string name="Date_text">日期</string>
+    <string name="Json_1">{\"</string>
+    <string name="Json_2">\":\"</string>
+    <string name="Json_3_1">\"</string>
+    <string name="Json_3_2">,\"</string>
+    <string name="Json_4">\"}</string>
+    
+    <string name="fund_list_title_name">基金名称</string>
+    <string name="fund_list_title_gz">净值估值</string>
+    <string name="fund_list_title_jz">净值</string>
+    <string name="fund_list_btn_buy">buy</string>
+    <string name="fund_list_btn_del">del</string>
+    
+    <string name="fund_list_text1">购入</string>
+    <string name="paoma_light1">基金调用的接口刷新时间不固定，一切以天天基金数据为准，本app仅提供参考 基金调用的接口刷新时间不固定，一切以天天基金数据为准，本app仅提供参考 基金调用的接口刷新时间不固定，一切以天天基金数据为准，本app仅提供参考</string>
+	<string name="paoma_light2">今日交易已结束，请等待新交易日(购买基金机构方确认的交易日 9：30-15：00 期间内交易)  今日交易已结束，请等待新交易日(购买基金机构方确认的交易日 9：30-15：00 期间内交易) 今日交易已结束，请等待新交易日(购买基金机构方确认的交易日 9：30-15：00 期间内交易)</string>
+	<string name="paoma_light3">当前处于"+sys.day_name+"，请通过购买基金机构方确认当日是否交易(购买基金机构方确认的交易日 9：30-15：00 期间内交易)  当前处于"+sys.day_name+"，请通过购买基金机构方确认当日是否交易(购买基金机构方确认的交易日 9：30-15：00 期间内交易) 当前处于"+sys.day_name+"，请通过购买基金机构方确认当日是否交易(购买基金机构方确认的交易日 9：30-15：00 期间内交易)</string>
+</resources>
